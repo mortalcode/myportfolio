@@ -1,0 +1,10 @@
+{
+  "name": "css-cleanup",
+  "version": "1.0.0",
+  "devDependencies": {
+    "purgecss": "^6.0.0"
+  },
+  "scripts": {
+    "purge": "purgecss --css styles.css --content index.html --output cleaned.css"
+  }
+}
