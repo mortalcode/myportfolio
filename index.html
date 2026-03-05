@@ -1,287 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abdul — Software Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mortalCode — Software Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Favicon image inserted -->
+  <link rel="icon" type="image/png" href="/css/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/css/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/css/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/css/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="/css/favicon/site.webmanifest" />
+  <link rel="icon" href="/css/favicon/web-app-manifest-512x512.png" type="image/x-icon">
 </head>
+
 <body>
 
-<nav id="nav">
-  <a class="nav-logo" href="#">Mortal Code</a>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <nav id="nav">
+    <a class="nav-logo" href="#">Mortal Code</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-left">
-    <p class="hero-eyebrow">Software Developer</p>
-    <h1>Building things<br>that <em>work beautifully</em></h1>
-    <p class="hero-bio">I'm <span id="myname">Abdul,</span> a full-stack developer who cares about clean code, thoughtful interfaces, and software that genuinely helps people.</p>
-    <div class="hero-actions">
-      <a href="#projects" class="btn btn-fill">See My Work</a>
-      <a href="#contact" class="btn btn-ghost">Say Hello</a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="hero-card">
-      <div class="hero-card-icon">✦</div>
-      <div>
-        <span class="hero-card-label">Status</span>
-        <span class="hero-card-val"><span class="status-dot"></span>Open to opportunities</span>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Software Developer</p>
+      <h1>Building things<br>that <em>work beautifully</em></h1>
+      <p class="hero-bio">I'm <span id="myname">Abdul,</span> a full-stack developer who cares about clean code,
+        thoughtful interfaces, and software that genuinely helps people.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-fill">See My Work</a>
+        <a href="#contact" class="btn btn-ghost">Say Hello</a>
       </div>
     </div>
-    <div class="hero-card">
-      <div class="hero-card-icon">📍</div>
-      <div>
-        <span class="hero-card-label">Location</span>
-        <span class="hero-card-val">Karachi, PK</span>
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hero-card-icon">✦</div>
+        <div>
+          <span class="hero-card-label">Status</span>
+          <span class="hero-card-val"><span class="status-dot"></span>Open to opportunities</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">📍</div>
+        <div>
+          <span class="hero-card-label">Location</span>
+          <span class="hero-card-val">Karachi, PK</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">⌛</div>
+        <div>
+          <span class="hero-card-label">Experience</span>
+          <span class="hero-card-val">1+ years · Full-Stack</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">🎓</div>
+        <div>
+          <span class="hero-card-label">Stack</span>
+          <span class="hero-card-val">MERN Stack</span>
+        </div>
       </div>
     </div>
-    <div class="hero-card">
-      <div class="hero-card-icon">⌛</div>
-      <div>
-        <span class="hero-card-label">Experience</span>
-        <span class="hero-card-val">1+ years · Full-Stack</span>
-      </div>
-    </div>
-    <div class="hero-card">
-      <div class="hero-card-icon">🎓</div>
-      <div>
-        <span class="hero-card-label">Education</span>
-        <span class="hero-card-val">B.S. Computer Science</span>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<hr class="divider">
+  <hr class="divider">
 
-<!-- ABOUT -->
-<div class="section-wrap" id="about">
-  <div class="section-header reveal">
-    <span class="section-num">01</span>
-    <h2>About Me</h2>
-  </div>
-  <div class="about-grid">
-    <div class="about-photo reveal">
-      <div class="photo-placeholder"><a href="picture">
-        <img id="avatar" src="/images/avatars/1000101121(1).jpg" alt="">
-      </a></div>
-    </div>
-    <div class="about-body">
-      <p class="reveal">I'm a developer who loves working across the full stack — from designing APIs and databases to crafting the UI layer. I care deeply about code quality, performance, and making things that are a genuine pleasure to use.</p>
-      <p class="reveal reveal-delay-1">I've shipped products for startups and larger companies alike, and I've found that the best results come from keeping things simple, writing code that others can maintain, and genuinely listening to users.</p>
-      <p class="reveal reveal-delay-2">Outside of work, you'll find me hiking, contributing to open source, or reading about systems design. I'm currently interested in AI tooling, developer experience, and edge computing.</p>
-      <div class="about-facts reveal reveal-delay-3">
-        <div class="fact"><span class="fact-num">1+</span><span class="fact-label">Years of experience</span></div>
-        <div class="fact"><span class="fact-num">10+</span><span class="fact-label">Projects shipped</span></div>
-        <div class="fact"><span class="fact-num">12</span><span class="fact-label">Happy clients</span></div>
-        <div class="fact"><span class="fact-num">∞</span><span class="fact-label">Cups of coffee</span></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<hr class="divider">
-
-<!-- SKILLS -->
-<div id="skills-section">
-  <div class="section-wrap" id="skills">
+  <!-- ABOUT -->
+  <div class="section-wrap" id="about">
     <div class="section-header reveal">
-      <span class="section-num">02</span>
-      <h2>Skills</h2>
+      <span class="section-num">01</span>
+      <h2>About Me</h2>
     </div>
-    <div class="skills-list reveal" id="skills-list">
-      <div class="skill-row">
-        <div class="skill-name-wrap"><span class="skill-emoji">🟨</span><span class="skill-name">JavaScript</span></div>
-        <span class="skill-category">Language</span>
-        <div class="skill-track"><div class="skill-fill" data-w="97"></div></div>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="photo-placeholder"><a href="picture">
+            <img id="avatar" src="/images/avatars/1000101121(1).jpg" alt="">
+          </a></div>
       </div>
-      <div class="skill-row">
-        <div class="skill-name-wrap"><span class="skill-emoji">⚛️</span><span class="skill-name">React / Next.js</span></div>
-        <span class="skill-category">Frontend</span>
-        <div class="skill-track"><div class="skill-fill" data-w="95"></div></div>
+      <div class="about-body">
+        <p class="reveal">I'm a developer who loves working across the full stack — from designing APIs and databases to
+          crafting the UI layer. I care deeply about code quality, performance, and making things that are a genuine
+          pleasure to use.</p>
+        <p class="reveal reveal-delay-1">I've shipped products for startups and larger companies alike, and I've found
+          that the best results come from keeping things simple, writing code that others can maintain, and genuinely
+          listening to users.</p>
+        <p class="reveal reveal-delay-2">Outside of work, you'll find me hiking, contributing to open source, or reading
+          about systems design. I'm currently interested in AI tooling, developer experience, and edge computing.</p>
+        <div class="about-facts reveal reveal-delay-3">
+          <div class="fact"><span class="fact-num">1+</span><span class="fact-label">Years of experience</span></div>
+          <div class="fact"><span class="fact-num">10+</span><span class="fact-label">Projects shipped</span></div>
+          <div class="fact"><span class="fact-num">12</span><span class="fact-label">Happy clients</span></div>
+          <div class="fact"><span class="fact-num">∞</span><span class="fact-label">Cups of coffee</span></div>
+        </div>
       </div>
-      <div class="skill-row">
-        <div class="skill-name-wrap"><span class="skill-emoji">🟢</span><span class="skill-name">Node.js</span></div>
-        <span class="skill-category">Backend</span>
-        <div class="skill-track"><div class="skill-fill" data-w="88"></div></div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- SKILLS -->
+  <div id="skills-section">
+    <div class="section-wrap" id="skills">
+      <div class="section-header reveal">
+        <span class="section-num">02</span>
+        <h2>Skills</h2>
       </div>
-      <!-- <div class="skill-row">
+      <div class="skills-list reveal" id="skills-list">
+        <div class="skill-row">
+          <div class="skill-name-wrap"><span class="skill-emoji">🟨</span><span class="skill-name">JavaScript</span>
+          </div>
+          <span class="skill-category">Language</span>
+          <div class="skill-track">
+            <div class="skill-fill" data-w="97"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name-wrap"><span class="skill-emoji">⚛️</span><span class="skill-name">React /
+              Next.js</span></div>
+          <span class="skill-category">Frontend</span>
+          <div class="skill-track">
+            <div class="skill-fill" data-w="95"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name-wrap"><span class="skill-emoji">🟢</span><span class="skill-name">Node.js</span></div>
+          <span class="skill-category">Backend</span>
+          <div class="skill-track">
+            <div class="skill-fill" data-w="88"></div>
+          </div>
+        </div>
+        <!-- <div class="skill-row">
         <div class="skill-name-wrap"><span class="skill-emoji">🐍</span><span class="skill-name">Python</span></div>
         <span class="skill-category">Language</span>
         <div class="skill-track"><div class="skill-fill" data-w="80"></div></div>
       </div> -->
-      <div class="skill-row">
-        <div class="skill-name-wrap"><span class="skill-emoji">🗄️</span><span class="skill-name">PostgreSQL</span></div>
-        <span class="skill-category">Database</span>
-        <div class="skill-track"><div class="skill-fill" data-w="82"></div></div>
-      </div>
-      <div class="skill-row">
-        <div class="skill-name-wrap"><span class="skill-emoji">☁️</span><span class="skill-name">AWS / GCP</span></div>
-        <span class="skill-category">Cloud</span>
-        <div class="skill-track"><div class="skill-fill" data-w="75"></div></div>
-      </div>
-      <div class="skill-row">
-        <div class="skill-name-wrap"><span class="skill-emoji">🐳</span><span class="skill-name">Docker / K8s</span></div>
-        <span class="skill-category">DevOps</span>
-        <div class="skill-track"><div class="skill-fill" data-w="72"></div></div>
+        <div class="skill-row">
+          <div class="skill-name-wrap"><span class="skill-emoji">🗄️</span><span class="skill-name">PostgreSQL</span>
+          </div>
+          <span class="skill-category">Database</span>
+          <div class="skill-track">
+            <div class="skill-fill" data-w="82"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name-wrap"><span class="skill-emoji">☁️</span><span class="skill-name">AWS / GCP</span>
+          </div>
+          <span class="skill-category">Cloud</span>
+          <div class="skill-track">
+            <div class="skill-fill" data-w="75"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name-wrap"><span class="skill-emoji">🐳</span><span class="skill-name">Docker / K8s</span>
+          </div>
+          <span class="skill-category">DevOps</span>
+          <div class="skill-track">
+            <div class="skill-fill" data-w="72"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<hr class="divider">
+  <hr class="divider">
 
-<!-- PROJECTS -->
-<div class="section-wrap" id="projects">
-  <div class="section-header reveal">
-    <span class="section-num">03</span>
-    <h2>Projects</h2>
-  </div>
-  <div class="projects-list">
-    <a href="#" class="project-row reveal">
-      <span class="proj-index">01</span>
-      <div>
-        <span class="proj-tag">Web App</span>
-        <div class="proj-title">Pulse — Team Analytics</div>
-        <div class="proj-desc">Real-time productivity dashboard with WebSockets, sprint tracking, and mood check-ins</div>
-      </div>
-      <div class="proj-meta">Next.js · Supabase<br>2024 →</div>
-    </a>
-    <a href="#" class="project-row reveal reveal-delay-1">
-      <span class="proj-index">02</span>
-      <div>
-        <span class="proj-tag">Mobile</span>
-        <div class="proj-title">Folio — Expense Tracker</div>
-        <div class="proj-desc">AI receipt scanning with automatic categorisation and cross-device sync</div>
-      </div>
-      <div class="proj-meta">React Native · Firebase<br>2024 →</div>
-    </a>
-    <a href="#" class="project-row reveal reveal-delay-2">
-      <span class="proj-index">03</span>
-      <div>
-        <span class="proj-tag">Open Source</span>
-        <div class="proj-title">Envoy — Deploy CLI</div>
-        <div class="proj-desc">Zero-config deployment tool handling env vars, migrations, and one-command rollback</div>
-      </div>
-      <div class="proj-meta">Node.js · Go<br>2023 →</div>
-    </a>
-    <a href="#" class="project-row reveal reveal-delay-3">
-      <span class="proj-index">04</span>
-      <div>
-        <span class="proj-tag">SaaS</span>
-        <div class="proj-title">Helix — Design System</div>
-        <div class="proj-desc">Component library and token system used by 3 product teams, with Figma integration</div>
-      </div>
-      <div class="proj-meta">React · Storybook<br>2023 →</div>
-    </a>
-  </div>
-</div>
-
-<hr class="divider">
-
-<!-- CONTACT -->
-<div class="section-wrap" id="contact">
-  <div class="section-header reveal">
-    <span class="section-num">04</span>
-    <h2>Contact</h2>
-  </div>
-  <div class="contact-grid">
-    <div class="reveal">
-      <p class="contact-intro">Have a project or idea you'd like to discuss? I'm always open to a conversation.</p>
-      <div class="contact-links">
-        <a href="mailto:hello@alexrivera.dev" class="contact-link">
-          <span>✉️ &nbsp; mortalcode.dev@gmail</span>
-          <span class="contact-arrow">↗</span>
-        </a>
-        <a href="#" class="contact-link">
-          <span>💼 &nbsp; linkedin.com/in/abdul-mohaiymin</span>
-          <span class="contact-arrow">↗</span>
-        </a>
-        <a href="#" class="contact-link">
-          <span>🐙 &nbsp; github.com/mortalcode</span>
-          <span class="contact-arrow">↗</span>
-        </a>
-        <a href="#" class="contact-link">
-          <span>🐦 &nbsp; instagram.com/abdul_mohaiymin</span>
-          <span class="contact-arrow">↗</span>
-        </a>
-      </div>
+  <!-- PROJECTS -->
+  <div class="section-wrap" id="projects">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2>Projects</h2>
     </div>
-    <div class="reveal reveal-delay-1">
-      <div class="form">
-        <div class="field">
-          <label>Name</label>
-          <input type="text" id="f-name" placeholder="Your name">
+    <div class="projects-list">
+      <a href="#" class="project-row reveal">
+        <span class="proj-index">01</span>
+        <div>
+          <span class="proj-tag">Web App</span>
+          <div class="proj-title">Pulse — Team Analytics</div>
+          <div class="proj-desc">Real-time productivity dashboard with WebSockets, sprint tracking, and mood check-ins
+          </div>
         </div>
-        <div class="field">
-          <label>Email</label>
-          <input type="email" id="f-email" placeholder="you@example.com">
+        <div class="proj-meta">Next.js · Supabase<br>2024 →</div>
+      </a>
+      <a href="#" class="project-row reveal reveal-delay-1">
+        <span class="proj-index">02</span>
+        <div>
+          <span class="proj-tag">Mobile</span>
+          <div class="proj-title">Folio — Expense Tracker</div>
+          <div class="proj-desc">AI receipt scanning with automatic categorisation and cross-device sync</div>
         </div>
-        <div class="field">
-          <label>Message</label>
-          <textarea id="f-msg" placeholder="Tell me about your project…"></textarea>
+        <div class="proj-meta">React Native · Firebase<br>2024 →</div>
+      </a>
+      <a href="#" class="project-row reveal reveal-delay-2">
+        <span class="proj-index">03</span>
+        <div>
+          <span class="proj-tag">Open Source</span>
+          <div class="proj-title">Envoy — Deploy CLI</div>
+          <div class="proj-desc">Zero-config deployment tool handling env vars, migrations, and one-command rollback
+          </div>
         </div>
-        <button class="btn btn-fill" onclick="sendMsg()" style="align-self:flex-start;border-radius:8px;border:none">Send Message →</button>
-      </div>
+        <div class="proj-meta">Node.js · Go<br>2023 →</div>
+      </a>
+      <a href="#" class="project-row reveal reveal-delay-3">
+        <span class="proj-index">04</span>
+        <div>
+          <span class="proj-tag">SaaS</span>
+          <div class="proj-title">Helix — Design System</div>
+          <div class="proj-desc">Component library and token system used by 3 product teams, with Figma integration
+          </div>
+        </div>
+        <div class="proj-meta">React · Storybook<br>2023 →</div>
+      </a>
     </div>
   </div>
-</div>
 
-<footer>
-  <p>© 2026 mortalCode</p>
-  <p>Built with care</p>
-</footer>
+  <hr class="divider">
 
-<script>
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 40);
-  });
+  <!-- CONTACT -->
+  <div class="section-wrap" id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="contact-intro">Have a project or idea you'd like to discuss? I'm always open to a conversation.</p>
+        <div class="contact-links">
+          <a href="mailto:mortalcode.dev@gmail.com" class="contact-link">
+            <span>✉️ &nbsp; mortalcode.dev@gmail</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/abdul-mohaiymin/?skipRedirect=true" class="contact-link">
+            <span>💼 &nbsp; linkedin.com/in/abdul-mohaiymin</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://github.com/mortalcode" class="contact-link">
+            <span>🐙 &nbsp; github.com/mortalcode</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://www.instagram.com/abdullah_bin_umarr/?hl=en" class="contact-link">
+            <span>🐦 &nbsp; instagram.com/abdul_mohaiymin</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <div class="form">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" id="f-name" placeholder="Your name">
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" id="f-email" placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label>Message</label>
+            <textarea id="f-msg" placeholder="Tell me about your project…"></textarea>
+          </div>
+          <button class="btn btn-fill" onclick="sendMsg()"
+            style="align-self:flex-start;border-radius:8px;border:none">Send Message →</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  const ro = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-  }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
-  document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+  <footer>
+    <p>© 2026 mortalCode</p>
+    <p>Built with care</p>
+  </footer>
 
-  const skillObs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.querySelectorAll('.skill-fill').forEach(bar => {
-          bar.style.width = bar.dataset.w + '%';
-        });
-        skillObs.unobserve(e.target);
-      }
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
     });
-  }, { threshold: 0.3 });
-  const sl = document.getElementById('skills-list');
-  if (sl) skillObs.observe(sl);
 
-  function sendMsg() {
-    const n = document.getElementById('f-name').value.trim();
-    const e = document.getElementById('f-email').value.trim();
-    const m = document.getElementById('f-msg').value.trim();
-    if (!n || !e || !m) { alert('Please fill in all fields.'); return; }
-    const btn = document.querySelector('.form .btn');
-    btn.textContent = '✓ Sent!';
-    btn.style.background = '#22c55e';
-    setTimeout(() => {
-      btn.textContent = 'Send Message →';
-      btn.style.background = '';
-      document.getElementById('f-name').value = '';
-      document.getElementById('f-email').value = '';
-      document.getElementById('f-msg').value = '';
-    }, 3000);
-  }
-</script>
+    const ro = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+
+    const skillObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.skill-fill').forEach(bar => {
+            bar.style.width = bar.dataset.w + '%';
+          });
+          skillObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    const sl = document.getElementById('skills-list');
+    if (sl) skillObs.observe(sl);
+
+    function sendMsg() {
+      const n = document.getElementById('f-name').value.trim();
+      const e = document.getElementById('f-email').value.trim();
+      const m = document.getElementById('f-msg').value.trim();
+      if (!n || !e || !m) { alert('Please fill in all fields.'); return; }
+      const btn = document.querySelector('.form .btn');
+      btn.textContent = '✓ Sent!';
+      btn.style.background = '#22c55e';
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+        document.getElementById('f-name').value = '';
+        document.getElementById('f-email').value = '';
+        document.getElementById('f-msg').value = '';
+      }, 3000);
+    }
+  </script>
 </body>
+
 </html>
