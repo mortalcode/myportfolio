@@ -91,13 +91,19 @@
   h1 em { font-style: italic; color: var(--muted); }
 
   .hero-bio {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--muted);
     line-height: 1.75;
     max-width: 440px;
     font-weight: 300;
     opacity: 0;
     animation: fadeUp 0.7s 0.5s ease forwards;
+  }
+
+    #myname{
+    font-weight: 500;
+    color: #141414;
+    font-size: 1.5rem;
   }
 
   .hero-actions {
@@ -211,6 +217,8 @@
   #avatar{
     width: 100%;
   }
+
+
 
   .about-body p {
     color: #555;
