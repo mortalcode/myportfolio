@@ -208,6 +208,10 @@
     color: var(--border);
   }
 
+  #avatar{
+    width: 100%;
+  }
+
   .about-body p {
     color: #555;
     font-size: 1rem;
