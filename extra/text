@@ -1,0 +1,47 @@
+<div class="section-wrap" id="projects">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-list">
+      <a href="#" class="project-row reveal">
+        <span class="proj-index">01</span>
+        <div>
+          <span class="proj-tag">Web App</span>
+          <div class="proj-title">Pulse — Team Analytics</div>
+          <div class="proj-desc">Real-time productivity dashboard with WebSockets, sprint tracking, and mood check-ins
+          </div>
+        </div>
+        <div class="proj-meta">Next.js · Supabase<br>2024 →</div>
+      </a>
+      <a href="#" class="project-row reveal reveal-delay-1">
+        <span class="proj-index">02</span>
+        <div>
+          <span class="proj-tag">Mobile</span>
+          <div class="proj-title">Folio — Expense Tracker</div>
+          <div class="proj-desc">AI receipt scanning with automatic categorisation and cross-device sync</div>
+        </div>
+        <div class="proj-meta">React Native · Firebase<br>2024 →</div>
+      </a>
+      <a href="#" class="project-row reveal reveal-delay-2">
+        <span class="proj-index">03</span>
+        <div>
+          <span class="proj-tag">Open Source</span>
+          <div class="proj-title">Envoy — Deploy CLI</div>
+          <div class="proj-desc">Zero-config deployment tool handling env vars, migrations, and one-command rollback
+          </div>
+        </div>
+        <div class="proj-meta">Node.js · Go<br>2023 →</div>
+      </a>
+      <a href="#" class="project-row reveal reveal-delay-3">
+        <span class="proj-index">04</span>
+        <div>
+          <span class="proj-tag">SaaS</span>
+          <div class="proj-title">Helix — Design System</div>
+          <div class="proj-desc">Component library and token system used by 3 product teams, with Figma integration
+          </div>
+        </div>
+        <div class="proj-meta">React · Storybook<br>2023 →</div>
+      </a>
+    </div>
+  </div>
